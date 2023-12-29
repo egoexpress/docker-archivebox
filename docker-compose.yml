@@ -12,7 +12,7 @@ version: '3.9'
 
 services:
   app:
-    image: archivebox/archivebox:dev
+    image: archivebox/archivebox:0.7
     command: server --quick-init
     ports:
       - 8000:8000
@@ -50,3 +50,4 @@ volumes:
 networks:
   frontend:
   backend:
+
